@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Wereld - Cute Baby Products</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffccdd;
+        }
+        .header, .footer {
+            background-color: #ff6b88;
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            .product {
+                flex-direction: column;
+            }
+            .product img {
+                max-width: 50%;
+            }
+            .product-info {
+                padding: 20px 0;
+                text-align: center;
+            }
+        }
+        /* Buy Button Styles */
+        .buy-button {
+            background-color: #ff6b88;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Baby Wereld</h1>
+        <p>Your Source for Cute Baby Products</p>
+    </div>
+    <div class="container">
+        <div class="youtube-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PQYqOnZBOd0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="product">
+            <img src="images/fav%20(1).png" alt="Cute Baby Product">
+            <div class="product-info">
+                <h2 class="product-title">Adorable Baby Product</h2>
+                <p class="product-description">Discover the cutest baby product you'll ever find. Perfect for your little one!</p>
+                <p class="product-price">$29.99</p>
+                <a href="product_details.html" class="buy-button">Buy Now</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="privacy_policy.html">Privacy Policy</a>
+        <a href="return_policy.html">Return Policy</a>
+        <a href="https://www.facebook.com/babywereld">Facebook</a>
+        <a href="https://www.instagram.com/babywereld">Instagram</a>
+    </div>
+</body>
+</html>
