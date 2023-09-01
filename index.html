@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby World</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffccdd;
+        }
+        .header, .footer {
+            background-color: #ff6b88;
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+        .container {
+            max-width: 100%; /* Use the full width of the viewport */
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        /* Add your announcement style */
+        .announcement {
+            background-color: #ff6b88;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        /* Add your review and FAQ styles */
+        .review-section {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        /* Slideshow Styles */
+        .slideshow-container {
+            max-width: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+        .mySlides img {
+            max-width: 100%;
+            height: auto;
+        }
+        .mySlides {
+            display: none;
+        }
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+        .prev:hover, .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        /* Add styles for the Facebook button */
+        .facebook-button {
+            background-color: #1877F2;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        /* Add styles for the product details button */
+.product-details-button {
+    background-color: #ff6b88;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.product-details-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="announcement">Free Shipping Worldwide</div>
+        <h1>Welcome to Baby World</h1>
+    </div>
+    <div class="container">
+        <div class="youtube-video">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/PQYqOnZBOd0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="slideshow-container">
+            <!-- Your existing slideshow code here -->
+            <div class="mySlides">
+                <img src="images/1.jpg" alt="Cute Baby Product">
+            </div>
+            <div class="mySlides">
+                <img src="images/3.jpg" alt="Another Cute Baby Product">
+            </div>
+            <div class="mySlides">
+                <img src="images/4.jpg" alt="Another Cute Baby Product">
+            </div>
+            <div class="mySlides">
+                <img src="images/6.jpg" alt="Another Cute Baby Product">
+            </div>
+            <!-- Add more images as needed -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="product-info">
+            <h2 class="product-title">Personalized Baby Name Bracelet</h2>
+            <p class="product-description">Personalize Baby Name Bracelet Figaro Chain Smooth Bangle Link Gold Tone No Fade Safty Jewelry</p>
+            <p class="product-price">€29.99</p>
+            <a href="product_details.html" class="product-details-button">View Product Details</a>
+        </div>
+        <!-- Add a link to your Facebook page for messaging -->
+        <a href="https://www.facebook.com/profile.php?id=100062429741901" class="facebook-button" target="_blank">Contact Us on Facebook</a>
+    </div>
+    <!-- Add a section for Frequently Asked Questions (FAQs) -->
+<div class="review-section">
+    <h2>Frequently Asked Questions</h2>
+    
+    <h3>Q: What is the return policy?</h3>
+    <p>A: Our return policy allows you to return items within 14 days of purchase. Please visit our <a href="return_policy.html">Return Policy</a> page for more details.</p>
+    
+    <h3>Q: How long does shipping take?</h3>
+    <p>A: We offer free worldwide shipping, and the delivery time varies depending on your location. Typically, it takes 2-4 weeks for international orders to arrive.</p>
+    
+    <h3>Q: How to tell seller i want to engrave on jewelry??</h3>
+    <p>A: When you pay for order ,there is a place can make notes to seller.Visit <a href="product_details.html">Product Details</a> page for more details.</p>
+    
+    <!-- Add more FAQs as needed -->
+</div>
+    <div class="footer">
+        <a href="Privacy_Policy.html">Privacy Policy</a>
+        <a href="Return_Policy.html">Return Policy</a>
+        <a href="https://www.facebook.com/profile.php?id=100062429741901"target="_blank">Facebook</a>
+    </div>
+
+    <!-- Your existing JavaScript code -->
+    <script>
+        let slideIndex = 1;
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function showSlides(n) {
+            const slides = document.querySelectorAll(".mySlides");
+            if (n > slides.length) {
+                slideIndex = 1;
+            }
+            if (n < 1) {
+                slideIndex = slides.length;
+            }
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex - 1].style.display = "block";
+        }
+
+        showSlides(slideIndex);
+    </script>
+</body>
+</html>
+
+
